@@ -7,9 +7,13 @@
   <body>
 <p>
 <?php
+/*Détermination de la variable*/
   $pas = 20;
+  /*Boucle while qui signifie "tant que..."*/
   while($pas > 0){
+    /*Affichage*/
     echo $pas . ' pas, c\'est presque bon <br />';
+    /*Décrémentation*/
     $pas --;
   }
 ?>
